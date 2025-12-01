@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        abbr {
+    text-decoration: underline dotted; /* Para destacar o termo */
+    cursor: help; /* Mostra o ícone de ajuda do mouse */
+  }
+  abbr::after {
+    content: attr(title); /* O texto da dica será o conteúdo do atributo "title" */
+    display: none; /* Oculta a dica por padrão */
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;
+    z-index: 1;
+  }
+  abbr:hover::after {
+    display: block; /* Exibe a dica quando o mouse estiver sobre o termo */
+  }
+    </style>
+</head>
+<body>
+    <h1>Tags em HTML</h1>
+    <p>Em HTML5, podemos inserir os elementos da lista a seguir. Passe o mouse sobre os termos para descobrir qual tag, deverá utilizar em cada caso.</p>
+    <p>
+        <ul>
+            <li><abbr title="use a tag <p>">Parágrafo</abbr></li>
+            <li><abbr title="use a tag <h1>">Títulos</abbr></li>
+            <li><abbr title="use a tag <img>">Imagens</abbr></li>
+            <li><abbr title=" use a tag tararan">Abreviações</abbr></li>
+            <li><abbr title=" use a tag tararan">Código-fonte</abbr></li>
+            <li><abbr title="use a tag tararan">Lista numeradas</abbr></li>
+            <li><abbr title="use a tag tararan">Lista com demarcações</abbr></li>
+        </ul>
+    </p>
+</body>
+</html>
