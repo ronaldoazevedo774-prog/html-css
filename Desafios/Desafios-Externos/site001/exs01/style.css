@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 15px;
+    box-shadow: 10px solid rgba(0, 0, 0, 0.452);
+}
+
+h1 {
+    color: hsl(24, 5%, 18%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+h3 {
+    padding-left: 20px;
+    color: hsl(332, 51%, 32%);
+}
+
+.preparation {
+    background-color: hsl(330, 100%, 98%);
+}
+
+img {
+    width: 440px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+div {
+    background-color: hsl(14, 45%, 36%);
+    color: white;
+    padding: 1px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+a {
+    color: white;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
