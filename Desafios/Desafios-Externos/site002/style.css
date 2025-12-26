@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    Font-size : 15px;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+    width: 375px;
+    border-radius: 10px;
+    
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
