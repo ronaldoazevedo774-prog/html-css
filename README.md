@@ -8,4 +8,3 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
 <a href="./Desafios/desafio12/desafio012.html">Desafio Cordel</a>
 
-<a href="./Desafios/Desafios-Externos/index.html">Social links Profile</a>
