@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+main {
+  display: grid;
+  grid-template-columns: auto 90vw auto;
+  gap: 20px;
+  margin-top: 20px;
+}
