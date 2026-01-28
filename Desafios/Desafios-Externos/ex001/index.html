@@ -10,10 +10,36 @@
 <body>
     <main>
         <h1>Contact Us</h1>
-        First Name <br>
-        <input type="text" name="text" id="txt1">
-        Last Name
-        <input type="text" name="text" id="txt2" placeholder="Digite seu nome">
+        <div>
+            First Name 
+            <input type="text" name="text" id="txt1" min="5" max="10" required>
+        </div>
+        <div>
+            Last Name
+            <input type="text" name="text" id="txt2" placeholder="Digite seu nome" required min="5" max="10">
+        </div>
+        <div>
+            Email Address
+            <input type="email" name="text" id="txt3"  min="15" max="30" required>
+        </div>
+        <div>
+            Query Type
+            <input type="radio" name="radio" id="txt4" required>
+            General Enquiry
+            <input type="radio" name="radio" id="txt5" required>
+            Support Request
+        </div>
+        <div>
+            Message
+            <input type="text" name="text" id="txt6">
+        </div>
+        <div>
+            <input type="checkbox" name="check" id="txt7">
+            I consent to being contacted by the team
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
     </main>
 </body>
 </html>
