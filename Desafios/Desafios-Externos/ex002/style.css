@@ -8,8 +8,9 @@
 }
 
 body {
-    height: 190vh;
-    background: linear-gradient(to right, #7058fa, #30cfc7);
+    height: 180vh;
+    /*background: linear-gradient(to right, #7058fa, #30cfc7);*/
+    background-color: rgb(84, 84, 252);
     display: flex;
     justify-content: center;
     align-items: center;
