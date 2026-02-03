@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 190vh;
+    background: linear-gradient(to right, #7058fa, #30cfc7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 340px;
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 25px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.877);
+    transition: 0.3s;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+p#primeiro {
+    padding-top: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2#p1 {
+    text-align: left;
+    padding-top: 20px;
+}
+
+ul.l1 {
+    padding-left: 35px;
+    padding-top: 15px;
+}
+
+p#segundo {
+    padding: 15px;
+    padding-left: 1px;
+}
+
+
+h2#p2 {
+    text-align: left;
+    padding-top: 20px;
+}
+
+ul.l2 {
+    padding-left: 35px;
+    padding-top: 15px;
+}
+
+p#terceiro {
+    padding: 15px;
+    padding-left: 1px;
+}
+
+
+h2#p3 {
+    text-align: left;
+    padding-top: 20px;
+}
+
+ul.l3 {
+    padding-left: 35px;
+    padding-top: 15px;
+}
+
+p#quarto {
+    padding: 15px;
+    padding-left: 1px;
+}
+
+
+h2#p4 {
+    text-align: left;
+    padding-top: 20px;
+}
+
+ul.l4 {
+    padding-left: 35px;
+    padding-top: 15px;
+}
+
+p#quinto {
+    text-align: center;
+    padding: 30px;
+    background-color: black;
+    margin-top: 30px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
