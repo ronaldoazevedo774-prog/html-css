@@ -8,7 +8,7 @@
 }
 
 body {
-    height: 170vh;
+    height: 140vh;
     /*background: linear-gradient(to right, #7058fa, #30cfc7);*/
     background-color: rgb(83, 83, 253);
     display: flex;
