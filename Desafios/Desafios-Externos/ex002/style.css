@@ -8,8 +8,8 @@
 }
 
 body {
-    height: 1200px;
-    background: linear-gradient(to right, #7058fa, #30cfc7);
+    height: 1350px;
+    background-color: #7058fa;
     /*background-color: rgb(83, 83, 253);*/
     display: flex;
     justify-content: center;
@@ -21,12 +21,13 @@ main {
     background-color: white;
     border-radius: 18px;
     padding: 25px;
-    box-shadow: 7px 5px 0px black;
+    box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.589);
     /*box-shadow: 0 25px 50px rgba(0, 0, 0, 0.877);*/
     transition: 0.3s;
 }
 
 hr {
+    margin-top: 20px;
     border: none;
     height: 2px;
     background-color: black;
@@ -37,8 +38,6 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 p#primeiro {
     padding-top: 20px;
     text-align: center;
@@ -46,8 +45,12 @@ p#primeiro {
 }
 
 h2#p1 {
-    text-align: left;
+    text-align: center;
     padding-top: 20px;
+    margin: 15px;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 100px;
 }
 
 ul.l1 {
@@ -57,14 +60,23 @@ ul.l1 {
 }
 
 p#segundo {
-    padding: 15px;
-    padding-left: 1px;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    background-color: hsl(169, 82%, 27%);
+    box-shadow: 3px 3px 5px black;
 }
 
 
 h2#p2 {
-    text-align: left;
+    text-align: center;
     padding-top: 20px;
+    margin: 20px;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 100px;
 }
 
 ul.l2 {
@@ -74,14 +86,23 @@ ul.l2 {
 }
 
 p#terceiro {
-    padding: 15px;
-    padding-left: 1px;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    background-color: hsl(169, 82%, 27%);
+    box-shadow: 3px 3px 5px black;
 }
 
 
 h2#p3 {
-    text-align: left;
+    text-align: center;
     padding-top: 20px;
+    margin: 20px;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 100px;
 }
 
 ul.l3 {
@@ -91,14 +112,23 @@ ul.l3 {
 }
 
 p#quarto {
-    padding: 15px;
-    padding-left: 1px;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    background-color: hsl(169, 82%, 27%);
+    box-shadow: 3px 3px 5px black;
 }
 
 
 h2#p4 {
-    text-align: left;
+    text-align: center;
     padding-top: 20px;
+    margin: 20px;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 100px;
 }
 
 ul.l4 {
@@ -117,4 +147,5 @@ p#quinto {
     border-radius: 15px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 5px 5px 5px black;
 }
