@@ -8,9 +8,9 @@
 }
 
 body {
-    height: 100svh;
-    /*background: linear-gradient(to right, #7058fa, #30cfc7);*/
-    background-color: rgb(83, 83, 253);
+    height: 1200px;
+    background: linear-gradient(to right, #7058fa, #30cfc7);
+    /*background-color: rgb(83, 83, 253);*/
     display: flex;
     justify-content: center;
     align-items: center;
