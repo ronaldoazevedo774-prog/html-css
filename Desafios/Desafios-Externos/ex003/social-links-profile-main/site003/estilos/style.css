@@ -6,7 +6,7 @@
 }
 
 body {
-    height: 645px;
+    height: 100vh;
     background-color: hsl(0, 0%, 8%);
     display: flex;
     justify-content: center;
@@ -65,10 +65,10 @@ a {
     padding: 10px 20px;
     border-radius: 8px;
     display: inline-block;
-    transition: background-color 0.25s;
+    transition: all 0.3s ease-in-out;
     font-weight: bold;
 }
 
 a:active {
-    background-color: #5eff00;
+    background-color: hsl(75, 94%, 57%);
 }
