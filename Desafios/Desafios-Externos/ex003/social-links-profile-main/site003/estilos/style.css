@@ -36,7 +36,7 @@ p#p2 {
 
 main {
     width: 338px;
-    height: 550px;
+    height: 568px;
     background-color: hsl(0, 0%, 12%);
     border-radius: 13px;
     padding: 25px;
@@ -62,13 +62,18 @@ a {
     text-align: center;
     background-color: hsl(0, 0%, 20%);
     color: white;
-    padding: 10px 20px;
+    padding: 13px 20px;
     border-radius: 8px;
     display: inline-block;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.25s ease-in-out;
     font-weight: bold;
 }
 
 a:active {
     background-color: hsl(75, 94%, 57%);
+}
+
+a:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
 }
