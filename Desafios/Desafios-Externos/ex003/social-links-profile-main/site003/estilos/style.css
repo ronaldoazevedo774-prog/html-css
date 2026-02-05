@@ -6,7 +6,6 @@
 }
 
 body {
-    height: 100vh;
     background-color: hsl(0, 0%, 8%);
     display: flex;
     justify-content: center;
