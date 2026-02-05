@@ -6,6 +6,7 @@
 }
 
 body {
+    height: 645px;
     background-color: hsl(0, 0%, 8%);
     display: flex;
     justify-content: center;
@@ -35,7 +36,7 @@ p#p2 {
 
 main {
     width: 338px;
-    height: 600px;
+    height: 550px;
     background-color: hsl(0, 0%, 12%);
     border-radius: 13px;
     padding: 25px;
