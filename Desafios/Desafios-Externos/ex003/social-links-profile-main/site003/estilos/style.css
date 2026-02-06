@@ -71,9 +71,11 @@ a {
 
 a:active {
     background-color: hsl(75, 94%, 57%);
+    transition: 0.2s;
 }
 
 a:hover {
     background-color: hsl(75, 94%, 57%);
     cursor: pointer;
+    transition: 0.3s;
 }
