@@ -24,6 +24,13 @@ main {
     /*transition: 0.3s;*/
 }
 
+hr {
+    margin-top: 25px;
+    border: none;
+    height: 1px;
+    background-color: hsl(30, 18%, 87%);
+}
+
 h1 {
     margin-top: 15px;
     font-size: 30px;
@@ -49,7 +56,11 @@ ul.primeiro1 {
 #p1 {
     padding: 4px;
     margin-left: 40px;
-    color: hsl(24, 5%, 18%);
+    color: hsl(30, 10%, 34%);
+}
+
+strong {
+    color: (24, 5%, 18%);
 }
 
 h2.primeiro {
@@ -86,6 +97,7 @@ h2.segundo {
     margin-top: 15px;
     margin-left: 22px;
     font-family: Arial, Helvetica, sans-serif;
+    color: hsl(30, 10%, 34%);
 }
 
 img {
