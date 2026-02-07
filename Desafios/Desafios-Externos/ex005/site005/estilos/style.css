@@ -24,6 +24,33 @@ main {
     /*transition: 0.3s;*/
 }
 
+h1 {
+    margin-top: 15px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(24, 5%, 18%);
+}
+
+p.principal {
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(30, 10%, 34%);
+}
+
+ul.primeiro1 {
+    margin-top: 25px;
+    height: 150px;
+    border-radius: 8px;
+    background-color: hsl(330, 100%, 98%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2.primeiro {
+    color: hsl(332, 51%, 32%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
 img {
     display: block;
     margin-left: auto;
