@@ -6,7 +6,7 @@
 }
 
 body {
-    height: 1400px;
+    height: 1500px;
     background-color: hsl(30, 54%, 90%);
     display: flex;
     justify-content: center;
@@ -15,7 +15,7 @@ body {
 
 main {
     width: 320px;
-    height: 1300px;
+    height: 1400px;
     background-color: white;
     border-radius: 18px;
     padding: 25px;
@@ -30,4 +30,12 @@ img {
     margin-right: auto;
     max-width: 100%;
     border-radius: 7px;
+}
+
+
+.container-calorias {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  padding: 10px;
 }
