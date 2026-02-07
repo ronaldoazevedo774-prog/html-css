@@ -6,7 +6,7 @@
 }
 
 body {
-    height: 1500px;
+    height: 1900px;
     background-color: hsl(30, 54%, 90%);
     display: flex;
     justify-content: center;
@@ -15,12 +15,12 @@ body {
 
 main {
     width: 320px;
-    height: 1400px;
+    height: 1800px;
     background-color: white;
     border-radius: 18px;
     padding: 25px;
     color: black;
-    box-shadow: 0 25px 50px;
+    /*box-shadow: 0 25px 50px;*/
     /*transition: 0.3s;*/
 }
 
@@ -38,17 +38,54 @@ p.principal {
 }
 
 ul.primeiro1 {
-    margin-top: 25px;
-    height: 150px;
+    margin-top: 28px;
+    height: 175px;
+    width: 270px;
     border-radius: 8px;
     background-color: hsl(330, 100%, 98%);
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#p1 {
+    padding: 4px;
+    margin-left: 40px;
+    color: hsl(24, 5%, 18%);
 }
 
 h2.primeiro {
     color: hsl(332, 51%, 32%);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 19px;
+    padding: 18px;
+}
+
+/*
+ul.primeiro1 {
+  list-style: none;
+}
+
+ul li#p1::before {
+  content: "\2022";
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+  display: inline-block;
+}*/
+
+ul.segundo2 {
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2.segundo {
+    color: hsl(14, 45%, 36%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#p2 {
+    padding: 1px;
+    margin-top: 15px;
+    margin-left: 22px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
