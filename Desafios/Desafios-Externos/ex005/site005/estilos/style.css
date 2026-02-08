@@ -11,6 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
@@ -24,8 +25,23 @@ main {
     /*transition: 0.3s;*/
 }
 
-hr {
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    border-radius: 7px;
+}
+
+hr#h1 {
     margin-top: 25px;
+    border: none;
+    height: 1px;
+    background-color: hsl(30, 18%, 87%);
+}
+
+hr#h2 {
+    margin-top: 10px;
     border: none;
     height: 1px;
     background-color: hsl(30, 18%, 87%);
@@ -100,18 +116,72 @@ h2.segundo {
     color: hsl(30, 10%, 34%);
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    border-radius: 7px;
+h2.terceiro {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(14, 45%, 36%);
 }
 
+strong#primeiro {
+    color: hsl(24, 5%, 18%);
+    font-size: ;
+}
+
+li#c1 {
+    color: hsl(30, 10%, 34%);
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li#c2 {
+    color: hsl(30, 10%, 34%);
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li#c3 {
+    color: hsl(30, 10%, 34%);
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li#c4 {
+    color: hsl(30, 10%, 34%);
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li#c5 {
+    color: hsl(30, 10%, 34%);
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li#c6 {
+    color: hsl(30, 10%, 34%);
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2#quarto {
+    margin-top: 20px;
+    color: hsl(14, 45%, 36%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p#paragrafo {
+    margin-top: 20px;
+}
 
 .container-calorias {
   display: flex;
   justify-content: space-between;
   width: 200px;
-  padding: 10px;
+  padding: 4px;
 }
