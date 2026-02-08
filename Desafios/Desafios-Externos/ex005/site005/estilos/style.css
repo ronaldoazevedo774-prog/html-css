@@ -86,18 +86,6 @@ h2.primeiro {
     padding: 18px;
 }
 
-/*
-ul.primeiro1 {
-  list-style: none;
-}
-
-ul li#p1::before {
-  content: "\2022";
-  color: hsl(332, 51%, 32%);
-  font-weight: bold;
-  display: inline-block;
-}*/
-
 ul.segundo2 {
     margin-top: 25px;
     font-family: Arial, Helvetica, sans-serif;
@@ -183,6 +171,7 @@ p#paragrafo {
 p#p3 {
     color: hsl(30, 10%, 34%);
     margin-top: 10px;
+    margin-left: 25px;
 }
 
 p#p4 {
@@ -194,6 +183,7 @@ p#p4 {
 p#p5 {
     color: hsl(30, 10%, 34%);
     margin-top: 20px;
+    margin-left: 25px;
 }
 
 p#p6 {
@@ -205,6 +195,34 @@ p#p6 {
 .container-calorias {
   display: flex;
   justify-content: space-between;
+  width: 168px;
+  padding: 4px;
+}
+
+.container-calor {
+  display: flex;
+  justify-content: space-between;
+  width: 160px;
+  padding: 4px;
+}
+
+.container-calori {
+  display: flex;
+  justify-content: space-between;
   width: 200px;
   padding: 4px;
+}
+
+
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+ul li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+ul li#p1::marker {
+    color: hsl(332, 51%, 32%);
 }
