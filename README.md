@@ -13,6 +13,6 @@ Meu nome é Ronald, tenho 15 anos e sou natural do Rio Grande do Norte. Atualmen
 
 <a href="./Desafios/Desafios-Externos/ex003/social-links-profile-main/site003/index.html">Desafio 01</a>
 
-<a href="./Desafios/Desafios-Externos/ex004/">Desafio 02</a>
+<a href="./Desafios/Desafios-Externos/ex004/site004/index.html">Desafio 02</a>
 
 <a href="./Desafios/Desafios-Externos/ex005/site005/index.html">Desafio 03</a>
