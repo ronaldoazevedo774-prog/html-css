@@ -108,3 +108,22 @@ hr {
     height: 1px;
     background-color: hsl(215, 32%, 27%); 
 }
+
+
+h1 {
+    color: white;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+strong#p1 {
+    color: white;
+}
+
+strong#p1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
