@@ -76,11 +76,11 @@ strong#p1 {
 .container1 img {
   width: 25%;
   margin-top: 15px;
-  transform: translate(550%);
+  transform: translate(510%);
 }
 
 .texto-sobreposto1 {
-  transform: translate(170%, -115%);
+  transform: translate(160%, -118%);
   font-family: Arial, Helvetica, sans-serif;
   color: hsl(215, 51%, 70%);
 }
