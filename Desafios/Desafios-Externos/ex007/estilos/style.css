@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(179, 179, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#primeiro {
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 25px;
+    color: black;
+    /*transition: 0.3s;*/
+}
+
+h2 {
+    transform: translate(10px, -10px);
+}
+
+hr {
+    border: none;
+    height: 2px;
+    width: 400px;
+    background-color: rgb(217, 217, 248);
+    transform: translate(-25px, -25px);
+}
+
+h1 {
+    
+}
+
+div#segundo {
+    width: 400px;
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 25px;
+    color: black;
+}
+
+div#terceiro {
+    width: 400px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 25px;
+    margin-top: 15px;
+    color: black;
+}
+
+
+
+/* Estilização da barra de navegação */
+.menu {
+  transform: translate(70px, -40px);
+}
+
+/* Flexbox para alinhar itens horizontalmente */
+.menu ul {
+  display: flex;
+  justify-content: center; /* Centraliza o menu */
+  list-style: none; /* Remove bolinhas */
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilização dos links */
+.menu li a {
+  display: block;
+  color: black;
+  padding: 5px 5px;
+  text-decoration: none; /* Remove sublinhado */
+  transition: background-color 0.3s;
+  color: rgb(73, 73, 131);
+  
+}
+
+/* Efeito ao passar o mouse (hover) */
+.menu li a:hover {
+  background-color: #6955c4;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+li#primeiro1 {
+    transform: translate(10px);
+    padding-right: 10px;
+}
+
+li#segundo2 {
+    transform: translate(10px);
+    padding-right: 10px;
+}
+
+li#terceiro3 {
+    transform: translate(10px);
+    padding-right: 10px;
+}
