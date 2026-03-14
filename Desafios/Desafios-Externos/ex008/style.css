@@ -6,8 +6,8 @@
 }
 
 body {
-    height: 1050px;
-    background-color: rgba(0, 128, 0, 0.767);
+    height: 1010px;
+    background-color: #2c2c2c;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,10 +25,18 @@ div {
 
 h1 {
     text-align: center;
+    color: #2c3e50;
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 
 p {
     margin-top: 15px;
+    color: #2c3e50;
+}
+
+strong {
+    color: black;
 }
 
 h2 {
@@ -54,13 +62,29 @@ h2#p1 {
     margin-top: 20px;
 }
 
-button {
+.p2 {
+    display: block;
+    margin-top: 10px;
+}
+
+.p2:hover {
+    background-color: black;
+    width: 145px;
+    color: white;
+}
+
+.botao {
+    display: block;
+    margin: auto;
     background-color: rgb(16, 16, 190);
     color: white;
     width: 100px;
     height: 50px;
+    margin-top: 15px;
     border-radius: 20px;
-    margin-left: 95px;
-    margin-top: 20px;
     cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #357abd;
 }
