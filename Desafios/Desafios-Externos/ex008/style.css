@@ -83,8 +83,10 @@ h2#p1 {
     margin-top: 15px;
     border-radius: 20px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .botao:hover {
     background-color: #357abd;
+    transform: scale(1.05);
 }
