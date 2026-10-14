@@ -7,102 +7,31 @@
 
 body {
     height: 100vh;
-    background-color: rgb(179, 179, 247);
+    background-color: hsl(235, 18%, 26%);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-div#primeiro {
-    width: 400px;
-    height: 300px;
+img#f0 {
+    translate: -18px -18px;
+    width: 340px;
+}
+
+main {
+    width: 340px;
     background-color: white;
-    border-radius: 5px;
-    padding: 25px;
-    color: black;
-    /*transition: 0.3s;*/
-}
-
-h2 {
-    transform: translate(10px, -10px);
-}
-
-hr {
-    border: none;
-    height: 2px;
-    width: 400px;
-    background-color: rgb(217, 217, 248);
-    transform: translate(-25px, -25px);
+    border-radius: 10px;
+    padding: 18px;
 }
 
 h1 {
-    
+    color: hsl(234, 29%, 20%);
 }
 
-div#segundo {
-    width: 400px;
-    margin-top: 15px;
-    background-color: white;
-    border-radius: 5px;
-    padding: 25px;
-    color: black;
-}
-
-div#terceiro {
-    width: 400px;
-    background-color: white;
-    border-radius: 5px;
-    padding: 25px;
-    margin-top: 15px;
-    color: black;
-}
-
-
-
-/* Estilização da barra de navegação */
-.menu {
-  transform: translate(70px, -40px);
-}
-
-/* Flexbox para alinhar itens horizontalmente */
-.menu ul {
-  display: flex;
-  justify-content: center; /* Centraliza o menu */
-  list-style: none; /* Remove bolinhas */
-  padding: 0;
-  margin: 0;
-}
-
-/* Estilização dos links */
-.menu li a {
-  display: block;
-  color: black;
-  padding: 5px 5px;
-  text-decoration: none; /* Remove sublinhado */
-  transition: background-color 0.3s;
-  color: rgb(73, 73, 131);
-  
-}
-
-/* Efeito ao passar o mouse (hover) */
-.menu li a:hover {
-  background-color: #6955c4;
-  border-radius: 5px;
-  color: white;
-  font-weight: bold;
-}
-
-li#primeiro1 {
-    transform: translate(10px);
-    padding-right: 10px;
-}
-
-li#segundo2 {
-    transform: translate(10px);
-    padding-right: 10px;
-}
-
-li#terceiro3 {
-    transform: translate(10px);
-    padding-right: 10px;
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: hsl(234, 29%, 20%);
 }
